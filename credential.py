@@ -1,24 +1,42 @@
-class Credential:
-    """
-    a class that creates new user credentials
-    """
+# class Credential:
+#     """
+#     Instances of user account credentials are created by this class.
+#     """
 
-    credential_array = []
+#     credential_entry = []
 
-    def __init__(self, user_name, password, email):
-        self.user_name = user_name
-        self.password = password
-        self.email = email
+#     def __init__(self, site_name, user_name, password ):
+#         self.site_name = site_name
+#         self.user_name = user_name
+#         self.password = password
+        
 
-    def save_credential(self):
-        """
-        Credential objects are saved in credential array via the save contact function.
-        """
-        Credential.credential_array.append(self)
+#     def save_credential(self):
+#         """
+#         The save contact method saves credential objects in the credential array.
+#         """
+#         Credential.credential_entry.append(self)
 
-    @classmethod
-    def display_credential(cls):
-        """
-        The credential array is returned by this function.
-        """
-        return cls.credential_array
+
+#     def delete_credential(self):
+#         '''
+#         Delete a credential from the list using this method.
+#         '''
+#         Credential.credential_entry.remove(self)
+
+#     @classmethod
+#     def display_credential(cls):
+#         """
+#         The credential array is returned by this function.
+#         """
+#         return cls.credential_entry
+
+
+#     @classmethod
+#     def locate_account(cls, account_name):
+#         '''
+#         A method that accepts a site name and returns the credentials for that site.
+#         '''
+#         for credential in cls.credential_entry:
+#             if credential.account_name == account_name:
+#                 return credential
