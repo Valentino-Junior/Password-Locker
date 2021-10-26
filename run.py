@@ -63,20 +63,7 @@ def save_users(user):
 
 
 def main():
-    # print('WELCOME TO PASSWORD LOCKER!!')
-    # name = input('Please enter your name: ')
-    # print(f"Hello {name}, Please use these short codes to either sign up or login to your account.") 
-    # user_shortcuts = input("lg - login sn- sign up ").upper()
-   
-    
-    # if user_shortcuts == 'lg':
-    #     print('Enter username: ')
-    #     lg_shortcut = input()
-    #     print('Enter password: ')
-    #     sn_shortcut = input()
-
-    #     print('lOGIN SUCCESSFUL')
-
+  
     print("HELLO, WELCOME TO PASSWORD LOCKER.")
     usr_name = input("Please enter your name:")
 
@@ -124,7 +111,7 @@ def main():
 
                     if short_code == 'cc':
                         print(" Create New Credentials")
-                        print("-"*20)
+                        print("-"*40)
 
                         print(" Input Site Name: ")
                         site_name = input()
@@ -149,16 +136,16 @@ def main():
                         else:
                             print("Wrong input, enter yes or no",)
 
-                        save_credential(create_credential(site_name, user_name, pass_length)) #Create and save credentials
+                        save_credential(create_credential(site_name, user_name, pass_length)) 
                         print('\n')
-                        print('-'*30)
+                        print('-'*50)
                         print(f"{user_name}, your new credential has successfully been created", )
-                        print('-'*30)
+                        print('-'*50)
                         print('\n')
 
                     elif short_code == 'sc':
                         print("Save Existing credentials")
-                        print("-"*10)
+                        print("-"*50)
 
                         print(" Input Site Name: ")
                         site_name = input()
@@ -172,7 +159,7 @@ def main():
 
                         
                     
-                        save_credential(create_credential(site_name, user_name, password)) #Create and save credentials
+                        save_credential(create_credential(site_name, user_name, password)) 
                         print('\n')
                         print(f"{site_name} credentials successfully saved")
                         print('\n')
@@ -185,7 +172,7 @@ def main():
 
                             for credential in display_credentials():
                                 print(f"{credential.account_name}")
-                                print("-"*30)
+                                print("-"*50)
                                 print(f"Username: {credential.first_name} {credential.last_name}")
                                 print(f"Password: {credential.user_password}")
                                 print('\n')
@@ -202,7 +189,7 @@ def main():
                         if check_existing_credentials(search_site):
                             search_site = find_credential(search_site)
                             print(f"{search_site.first_name} {search_site.last_name}")
-                            print("-"*20)
+                            print("-"*50)
 
                             print(f"Password: {search_site.user_password}")
 
@@ -226,23 +213,21 @@ def main():
                     elif short_code == "ex":
                         print("THANK YOU FOR USING PASSWORD LOCKER AND WELCOME BACK AGAIN!!",)
                         print('\n')
-                        print('-'*20)
+                        print('-'*50)
                         break
-                    else:
-                        print("I really didn't get that")
             else:
                 print("Login credentials are invalid.")
                 print('\n')
 
-        elif short_code == 'lg':
-            print("Please Enter your name")
-            inputname = input()
+        # elif short_code == 'lg':
+        #     print("Please Enter your name")
+        #     inputname = input()
 
-            print("Enter Your Password")
-            inputpass = input()
+        #     print("Enter Your Password")
+        #     inputpass = input()
 
-            print("The login information you submitted seems not to be valid. Before you can log in, you must first register an account.")
-            print('\n')
+            # print("The login information you submitted seems not to be valid. Before you can log in, you must first register an account.")
+            # print('\n')
    
 
         
