@@ -157,26 +157,26 @@ def main():
                         print('-'*30)
                         print('\n')
 
-#                     elif short_code == 'sc':
-#                         print("Save Existing credentials")
-#                         print("-"*10)
+                    elif short_code == 'sc':
+                        print("Save Existing credentials")
+                        print("-"*10)
 
-#                         print(" Input Site Name: ")
-#                         site_name = input()
+                        print(" Input Site Name: ")
+                        site_name = input()
 
-#                         print(" Input User Name: ")
-#                         user_name = input()
+                        print(" Input User Name: ")
+                        user_name = input()
 
 
-#                         print("Input Password: ")
-#                         password = input()
+                        print("Input Password: ")
+                        password = input()
 
                         
                     
-#                         save_credential(create_credential(site_name, user_name, password)) #Create and save credentials
-#                         print('\n')
-#                         print(f"{site_name} credentials successfully saved")
-#                         print('\n')
+                        save_credential(create_credential(site_name, user_name, password)) #Create and save credentials
+                        print('\n')
+                        print(f"{site_name} credentials successfully saved")
+                        print('\n')
 
 
 #                     elif short_code == 'dc':
