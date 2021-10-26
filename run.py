@@ -104,13 +104,13 @@ def main():
             print("You've successfully completed the registration process.",)
             print("Kindly, proceed by logging into your account",)
             print('\n')
-            print('*' *60)      
-#             print("Enter your username")
-#             username = input()
-            
-#             print("Enter your password")
-#             pin = input()
-
+            print('*' *60)    
+              
+            print("Enter your username")
+            username = input()
+           
+            print("Enter your password")
+            pin = input()
 #             if f"{fst_name }. {lst_name} == username and fpin == pin":
 #                 print(f"{username}, you've succesfully logged into your account")
 #                 print('\n')
