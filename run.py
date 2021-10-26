@@ -1,4 +1,4 @@
-
+#!/usr/bin/env python3.9
 from credential import Credential
 from user import User
 import random
@@ -86,9 +86,8 @@ def main():
         print("sn - sign up to new users")
         print("lg - log into your account")
         short_code = input("Enter short code:").upper()
-
-        if short_code == 'sn':
         
+        if short_code == 'sn':
             print("Enter  first_name: ")
             fst_name = input()
 
