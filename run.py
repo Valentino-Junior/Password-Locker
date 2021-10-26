@@ -105,19 +105,19 @@ def main():
             print("Kindly, proceed by logging into your account",)
             print('\n')
             print('*' *60)    
-              
+
             print("Enter your username")
             username = input()
            
             print("Enter your password")
             pin = input()
-#             if f"{fst_name }. {lst_name} == username and fpin == pin":
-#                 print(f"{username}, you've succesfully logged into your account")
-#                 print('\n')
+            if f"{fst_name }. {lst_name} == username and fpin == pin":
+                print(f"{username}, you've succesfully logged into your account")
+                print('\n')
 
-#                 print('*' *60)
+                print('*' *60)
 
-#                 pass
+                pass
 #                 while True:
 #                     print("Use these short codes: sc - Save credentials \n, cc - Create new credentials \n, dc - display credentials \n, lc - locate saved credential \n, del - delete credentials \n, ex - exit the account", "magenta")
 
