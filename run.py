@@ -63,48 +63,48 @@ def save_users(user):
 
 
 def main():
-    print('WELCOME TO PASSWORD LOCKER!!')
-    name = input('Please enter your name: ')
-    print(f"Hello {name}, Please use these short codes to either sign up or login to your account.") 
-    user_shortcuts = input("lg - login sn- sign up ").upper()
+    # print('WELCOME TO PASSWORD LOCKER!!')
+    # name = input('Please enter your name: ')
+    # print(f"Hello {name}, Please use these short codes to either sign up or login to your account.") 
+    # user_shortcuts = input("lg - login sn- sign up ").upper()
    
     
-    if user_shortcuts == 'lg':
-        print('Enter username: ')
-        lg_shortcut = input()
-        print('Enter password: ')
-        sn_shortcut = input()
+    # if user_shortcuts == 'lg':
+    #     print('Enter username: ')
+    #     lg_shortcut = input()
+    #     print('Enter password: ')
+    #     sn_shortcut = input()
 
-#     #     print('lOGIN SUCCESSFUL')
-#  print("HELLO, WELCOME TO PASSWORD LOCKER.")
-#  usr_name = input("Please enter your name:")
+    #     print('lOGIN SUCCESSFUL')
 
-#  while True:
-#         print('*'*60)
-#         print(f"Hello {usr_name}, Kindly use these short codes to either sign up or login to your account.") 
-#         print("lg - log into your account")
-#         print("sn - sign up to new users")
-#         short_code = input("Enter short code:").upper()
+    print("HELLO, WELCOME TO PASSWORD LOCKER.")
+    usr_name = input("Please enter your name:")
 
-#         if short_code == 'sn':
+    while True:
+        print('*'*60)
+        print(f"Hello {usr_name}, Kindly use these short codes to either sign up or login to your account.") 
+        print("lg - log into your account")
+        print("sn - sign up to new users")
+        short_code = input("Enter short code:").upper()
+
+        if short_code == 'sn':
         
-#             print("Enter  first_name: ")
-#             fst_name = input()
+            print("Enter  first_name: ")
+            fst_name = input()
 
-#             print("Enter  last_name: ")
-#             lst_name = input()
+            print("Enter  last_name: ")
+            lst_name = input()
 
-#             print("Enter password")
-#             fpin = input()
-#             print('*' *60)
+            print("Enter password")
+            fpin = input()
+            print('*' *60)
 
             
 
-#             print("You've successfully completed the registration process.",)
-#             print("Kindly, proceed by logging into your account",)
-#             print('\n')
-#             print('*' *60)
-        
+            print("You've successfully completed the registration process.",)
+            print("Kindly, proceed by logging into your account",)
+            print('\n')
+            print('*' *60)      
 #             print("Enter your username")
 #             username = input()
             
