@@ -191,10 +191,10 @@ def main():
                                 print(f"Password: {credential.user_password}")
                                 print('\n')
 
-#                         else:
-#                             print('\n')
-#                             print("You don't seem to have any stored credentials.")
-#                             print('\n')
+                        else:
+                            print('\n')
+                            print("You don't seem to have any stored credentials.")
+                            print('\n')
 
 #                     elif short_code == 'lc':
 #                         print("Please type the name of the site you're looking for into the below.\n")
