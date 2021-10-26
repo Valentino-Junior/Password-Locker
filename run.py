@@ -211,14 +211,14 @@ def main():
                             print("These credentials aren't available.")
                             print('\n')
 
-#                     elif short_code == 'del':
-#                         print("Please type the name of the site you wish to remove below.\n")
-#                         site_delete = input()
-#                         if check_existing_credentials(site_delete):
-#                             site_delete = find_credential(site_delete)
-#                             delete_credential(site_delete)
+                    elif short_code == 'del':
+                        print("Please type the name of the site you wish to remove below.\n")
+                        site_delete = input()
+                        if check_existing_credentials(site_delete):
+                            site_delete = find_credential(site_delete)
+                            delete_credential(site_delete)
 
-#                             print("Credentials were successfully removed.")
+                            print("Credentials were successfully removed.")
 
 #                         else:
 #                             print("There are no credentials.")
