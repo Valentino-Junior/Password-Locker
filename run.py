@@ -196,20 +196,20 @@ def main():
                             print("You don't seem to have any stored credentials.")
                             print('\n')
 
-#                     elif short_code == 'lc':
-#                         print("Please type the name of the site you're looking for into the below.\n")
+                    elif short_code == 'lc':
+                        print("Please type the name of the site you're looking for into the below.\n")
 
-#                         search_site = input("Site Name: ")
-#                         if check_existing_credentials(search_site):
-#                             search_site = find_credential(search_site)
-#                             print(f"{search_site.first_name} {search_site.last_name}")
-#                             print("-"*20)
+                        search_site = input("Site Name: ")
+                        if check_existing_credentials(search_site):
+                            search_site = find_credential(search_site)
+                            print(f"{search_site.first_name} {search_site.last_name}")
+                            print("-"*20)
 
-#                             print(f"Password: {search_site.user_password}")
+                            print(f"Password: {search_site.user_password}")
 
-#                         else:
-#                             print("These credentials aren't available.")
-#                             print('\n')
+                        else:
+                            print("These credentials aren't available.")
+                            print('\n')
 
 #                     elif short_code == 'del':
 #                         print("Please type the name of the site you wish to remove below.\n")
