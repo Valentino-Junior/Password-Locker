@@ -62,18 +62,18 @@ def save_users(user):
     user.save_users()
 
 
-# def main():
-#     # print('WELCOME TO PASSWORD LOCKER!!')
-#     # name = input('Please enter your name: ')
-#     # print(f"Hello {name}, Please use these short codes to either sign up or login to your account.") 
-#     # user_shortcuts = input("lg - login sn- sign up ").upper()
+def main():
+    print('WELCOME TO PASSWORD LOCKER!!')
+    name = input('Please enter your name: ')
+    print(f"Hello {name}, Please use these short codes to either sign up or login to your account.") 
+    user_shortcuts = input("lg - login sn- sign up ").upper()
    
     
-#     # if user_shortcuts == 'lg':
-#     #     print('Enter username: ')
-#     #     lg_shortcut = input()
-#     #     print('Enter password: ')
-#     #     sn_shortcut = input()
+    if user_shortcuts == 'lg':
+        print('Enter username: ')
+        lg_shortcut = input()
+        print('Enter password: ')
+        sn_shortcut = input()
 
 #     #     print('lOGIN SUCCESSFUL')
 #  print("HELLO, WELCOME TO PASSWORD LOCKER.")
