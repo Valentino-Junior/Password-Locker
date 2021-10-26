@@ -73,8 +73,9 @@ def main():
         print("sn - sign up to new users")
         print("lg - log into your account")
         short_code = input("Enter short code:").upper()
+
         
-        if short_code == 'sn':
+        if short_code == 'SN':
             print("Enter  first_name: ")
             fst_name = input()
 
@@ -107,7 +108,7 @@ def main():
                 while True:
                     print("Use these short codes: sc - Save credentials \n, cc - Create new credentials \n, dc - display credentials \n, lc - locate saved credential \n, del - delete credentials \n, ex - exit the account")
 
-                    short_code = input().upper()
+                    short_code = input()
 
                     if short_code == 'cc':
                         print(" Create New Credentials")
@@ -122,24 +123,25 @@ def main():
                         
 
                         print("Would you prefer a password that is customized for you?, respond by  YES or NO")
-                        password = input().lower()
+                        password = input().upper()
                         if password == 'YES':
                             print("What length do you want your password to be?")
                             password_length = int(input())
                             chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
-                            pass_length = "".join(random.choice(chars) for i in range(password_length))
+                            gen_password= "".join(random.choice(chars) for i in range(password_length))
                        
                         elif password == 'NO':
                             print("Enter the password you would like to use.")
-                            pass_length= input()
+                            gen_password= input()
 
                         else:
                             print("Wrong input, enter yes or no",)
 
-                        save_credential(create_credential(site_name, user_name, pass_length)) 
+                        save_credential(create_credential(site_name, user_name, gen_password)) 
                         print('\n')
                         print('-'*50)
-                        print(f"{user_name}, your new credential has successfully been created", )
+                        print(f"{user_name}, your new password has successfully  been created" )
+                        print(f" Your generated password is: {gen_password}")
                         print('-'*50)
                         print('\n')
 
