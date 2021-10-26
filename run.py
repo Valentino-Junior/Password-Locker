@@ -150,12 +150,12 @@ def main():
                         else:
                             print("Wrong input, enter yes or no",)
 
-#                         save_credential(create_credential(site_name, user_name, pass_length)) #Create and save credentials
-#                         print('\n')
-#                         print('-'*30)
-#                         print(f"{user_name}, your new credential has successfully been created", )
-#                         print('-'*30)
-#                         print('\n')
+                        save_credential(create_credential(site_name, user_name, pass_length)) #Create and save credentials
+                        print('\n')
+                        print('-'*30)
+                        print(f"{user_name}, your new credential has successfully been created", )
+                        print('-'*30)
+                        print('\n')
 
 #                     elif short_code == 'sc':
 #                         print("Save Existing credentials")
