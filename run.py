@@ -47,19 +47,19 @@ def display_credentials():
 
 
 
-# #Users funtions
-# def create_user(first_name, last_name, password):
-#     '''
-#    To generate a new user credential, use this function.
-#     '''
-#     new_user = User(first_name, last_name, password)
-#     return new_user
+#Users method
+def create_user(first_name, last_name, password):
+    '''
+   To generate a new user credential, use this function.
+    '''
+    new_user = User(first_name, last_name, password)
+    return new_user
 
-# def save_users(user):
-#     '''
-#     The user credential is saved using this function.
-#     '''
-#     user.save_users()
+def save_users(user):
+    '''
+    The user credential is saved using this function.
+    '''
+    user.save_users()
 
 
 # def main():
