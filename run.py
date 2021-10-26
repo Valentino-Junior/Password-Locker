@@ -224,11 +224,11 @@ def main():
                             print("There are no credentials.")
 
 
-#                     elif short_code == "ex":
-#                         print("THANK YOU FOR USING PASSWORD LOCKER AND WELCOME BACK AGAIN!!",)
-#                         print('\n')
-#                         print('-'*20)
-#                         break
+                    elif short_code == "ex":
+                        print("THANK YOU FOR USING PASSWORD LOCKER AND WELCOME BACK AGAIN!!",)
+                        print('\n')
+                        print('-'*20)
+                        break
 #                     else:
 #                         print("I really didn't get that")
 #             else:
