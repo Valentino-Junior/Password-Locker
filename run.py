@@ -83,8 +83,8 @@ def main():
     while True:
         print('*'*60)
         print(f"Hello {usr_name}, Kindly use these short codes to either sign up or login to your account.") 
-        print("lg - log into your account")
         print("sn - sign up to new users")
+        print("lg - log into your account")
         short_code = input("Enter short code:").upper()
 
         if short_code == 'sn':
@@ -119,7 +119,7 @@ def main():
 
                 pass
                 while True:
-                    print("Use these short codes: sc - Save credentials \n, cc - Create new credentials \n, dc - display credentials \n, lc - locate saved credential \n, del - delete credentials \n, ex - exit the account", "magenta")
+                    print("Use these short codes: sc - Save credentials \n, cc - Create new credentials \n, dc - display credentials \n, lc - locate saved credential \n, del - delete credentials \n, ex - exit the account")
 
                     short_code = input().upper()
 
