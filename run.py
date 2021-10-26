@@ -179,17 +179,17 @@ def main():
                         print('\n')
 
 
-#                     elif short_code == 'dc':
-#                         if display_credentials():
-#                             print("The following is a list of all of your credentials.")
-#                             print('\n')
+                    elif short_code == 'dc':
+                        if display_credentials():
+                            print("The following is a list of all of your credentials.")
+                            print('\n')
 
-#                             for credential in display_credentials():
-#                                 print(f"{credential.account_name}")
-#                                 print("-"*30)
-#                                 print(f"Username: {credential.first_name} {credential.last_name}")
-#                                 print(f"Password: {credential.user_password}")
-#                                 print('\n')
+                            for credential in display_credentials():
+                                print(f"{credential.account_name}")
+                                print("-"*30)
+                                print(f"Username: {credential.first_name} {credential.last_name}")
+                                print(f"Password: {credential.user_password}")
+                                print('\n')
 
 #                         else:
 #                             print('\n')
