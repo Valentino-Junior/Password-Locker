@@ -9,5 +9,10 @@ def main():
     name = input('Please enter your name:')
 
 
+    while True:
+        print(f"Hello {name}, Please use these short codes to either sign up or login to your account.") 
+        user_shortcuts = input("lg - login","sn- sign up").upper()
+        
+        
 if __name__ == '__main__':
     main()
