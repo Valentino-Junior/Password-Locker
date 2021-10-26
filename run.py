@@ -229,11 +229,11 @@ def main():
                         print('\n')
                         print('-'*20)
                         break
-#                     else:
-#                         print("I really didn't get that")
-#             else:
-#                 print("Login credentials are invalid.")
-#                 print('\n')
+                    else:
+                        print("I really didn't get that")
+            else:
+                print("Login credentials are invalid.")
+                print('\n')
 
 #         elif short_code == 'lg':
 #             print("Please Enter your name")
