@@ -220,8 +220,8 @@ def main():
 
                             print("Credentials were successfully removed.")
 
-#                         else:
-#                             print("There are no credentials.")
+                        else:
+                            print("There are no credentials.")
 
 
 #                     elif short_code == "ex":
