@@ -135,20 +135,20 @@ def main():
 
                         
 
-#                         print("Would you prefer a password that is customized for you?, respond by  YES or NO")
-#                         password = input().lower()
-#                         if password == 'YES':
-#                             print("What length do you want your password to be?")
-#                             password_length = int(input())
-#                             chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
-#                             pass_length = "".join(random.choice(chars) for i in range(password_length))
+                        print("Would you prefer a password that is customized for you?, respond by  YES or NO")
+                        password = input().lower()
+                        if password == 'YES':
+                            print("What length do you want your password to be?")
+                            password_length = int(input())
+                            chars = string.ascii_lowercase + string.ascii_uppercase + string.digits
+                            pass_length = "".join(random.choice(chars) for i in range(password_length))
                        
-#                         elif password == 'NO':
-#                             print("Enter the password you would like to use.")
-#                             pass_length= input()
+                        elif password == 'NO':
+                            print("Enter the password you would like to use.")
+                            pass_length= input()
 
-#                         else:
-#                             print("Wrong input, enter yes or no",)
+                        else:
+                            print("Wrong input, enter yes or no",)
 
 #                         save_credential(create_credential(site_name, user_name, pass_length)) #Create and save credentials
 #                         print('\n')
