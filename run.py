@@ -13,6 +13,13 @@ def main():
         print(f"Hello {name}, Please use these short codes to either sign up or login to your account.") 
         user_shortcuts = input("lg - login","sn- sign up").upper()
         
+        if user_shortcuts == 'lg':
+           lg_shortcut = input('Enter username: ')
+           sn_shortcut = input('Enter password: ')
+
+           print('lOGIN SUCCESSFUL')
+           
+
         
 if __name__ == '__main__':
     main()
