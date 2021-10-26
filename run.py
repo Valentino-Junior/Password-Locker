@@ -235,17 +235,17 @@ def main():
                 print("Login credentials are invalid.")
                 print('\n')
 
-#         elif short_code == 'lg':
-#             print("Please Enter your name")
-#             inputname = input()
+        elif short_code == 'lg':
+            print("Please Enter your name")
+            inputname = input()
 
-#             print("Enter Your Password")
-#             inputpass = input()
+            print("Enter Your Password")
+            inputpass = input()
 
-#             print("The login information you submitted seems not to be valid. Before you can log in, you must first register an account.")
-#             print('\n')
+            print("The login information you submitted seems not to be valid. Before you can log in, you must first register an account.")
+            print('\n')
    
 
         
-# if __name__ == '__main__':
-#     main()
+if __name__ == '__main__':
+    main()
