@@ -118,20 +118,20 @@ def main():
                 print('*' *60)
 
                 pass
-#                 while True:
-#                     print("Use these short codes: sc - Save credentials \n, cc - Create new credentials \n, dc - display credentials \n, lc - locate saved credential \n, del - delete credentials \n, ex - exit the account", "magenta")
+                while True:
+                    print("Use these short codes: sc - Save credentials \n, cc - Create new credentials \n, dc - display credentials \n, lc - locate saved credential \n, del - delete credentials \n, ex - exit the account", "magenta")
 
-#                     short_code = input().upper()
+                    short_code = input().upper()
 
-#                     if short_code == 'cc':
-#                         print(" Create New Credentials")
-#                         print("-"*20)
+                    if short_code == 'cc':
+                        print(" Create New Credentials")
+                        print("-"*20)
 
-#                         print(" Input Site Name: ")
-#                         site_name = input()
+                        print(" Input Site Name: ")
+                        site_name = input()
 
-#                         print(" Input User Name: ")
-#                         user_name = input()
+                        print(" Input User Name: ")
+                        user_name = input()
 
                         
 
